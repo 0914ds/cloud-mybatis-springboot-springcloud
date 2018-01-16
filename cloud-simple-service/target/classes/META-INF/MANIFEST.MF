@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: cloud-simple-service
+Implementation-Version: 1.0.0
+Built-By: DELL
+Implementation-Vendor-Id: cloud
+Build-Jdk: 1.8.0_144
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

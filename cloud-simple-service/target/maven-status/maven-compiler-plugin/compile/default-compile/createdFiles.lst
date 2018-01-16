@@ -1,0 +1,7 @@
+cloud\simple\service\dao\UserDao.class
+cloud\simple\service\web\UserController.class
+cloud\simple\service\domain\UserService.class
+cloud\simple\service\conf\MybatisDataSource.class
+cloud\simple\service\model\User.class
+cloud\simple\service\SimpleApplication.class
+cloud\simple\service\conf\DataSourceProperties.class
