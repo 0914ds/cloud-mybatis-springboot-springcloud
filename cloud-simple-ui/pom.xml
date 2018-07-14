@@ -29,7 +29,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.7</java.version>
 	</properties>
-	<repositories>
+	<!-- <repositories>
 		<repository>
 			<snapshots>
 				<enabled>true</enabled>
@@ -45,7 +45,7 @@
 			<name>Public Repositories</name>
 			<url>http://10.0.12.207:8081/nexus/content/groups/public/</url>
 		</pluginRepository>
-	</pluginRepositories>
+	</pluginRepositories> -->
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -82,6 +82,18 @@
 		<dependency>
 			<groupId>org.jolokia</groupId>
 			<artifactId>jolokia-core</artifactId>
+		</dependency>
+		<!-- 增加swagger-->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.6.1</version>
+        </dependency>
+ 
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.6.1</version>
 		</dependency>
 	</dependencies>
 	<build>
