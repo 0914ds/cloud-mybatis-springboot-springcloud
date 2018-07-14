@@ -28,7 +28,6 @@ public class UserController {
 	
 	//@Autowired
 	//FeignUserService feignUserService;
-	
 	@RequestMapping(value="/users")
 	public ResponseEntity<List<User>> readUserInfo(){
 		List<User> users=userService.readUserInfo();		
